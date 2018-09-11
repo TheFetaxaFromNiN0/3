@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="250.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Main_Menu1">
+   <children>
+      <Button fx:id="butMark" layoutX="33.0" layoutY="156.0" mnemonicParsing="false" onAction="#Mark_Setup" prefHeight="25.0" prefWidth="114.0" text="Шкала оценки" />
+      <Button fx:id="butExit" layoutX="207.0" layoutY="211.0" mnemonicParsing="false" onAction="#closeForm" prefHeight="25.0" prefWidth="79.0" text="Выход" />
+      <Button fx:id="butStart" layoutX="33.0" layoutY="100.0" mnemonicParsing="false" onAction="#openWindowStart" prefHeight="25.0" prefWidth="114.0" text="Начать тест" />
+      <Button fx:id="butReg" layoutX="33.0" layoutY="49.0" mnemonicParsing="false" onAction="#openWindowReg" prefHeight="25.0" prefWidth="114.0" text="Регистрация" />
+   </children>
+</AnchorPane>

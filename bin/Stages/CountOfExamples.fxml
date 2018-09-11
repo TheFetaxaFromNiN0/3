@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="countOfExmplsStage" prefHeight="144.0" prefWidth="317.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CountOfExamples">
+   <children>
+      <Button fx:id="OkBut" layoutX="211.0" layoutY="105.0" mnemonicParsing="false" onAction="#openTesWindow" prefHeight="25.0" prefWidth="92.0" text="OK" />
+      <Label fx:id="instrLabel" layoutX="24.0" layoutY="34.0" prefHeight="17.0" prefWidth="145.0" />
+      <TextField fx:id="countExmplsField" layoutX="24.0" layoutY="72.0" prefHeight="25.0" prefWidth="178.0" />
+   </children>
+   <opaqueInsets>
+      <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+   </opaqueInsets>
+</AnchorPane>

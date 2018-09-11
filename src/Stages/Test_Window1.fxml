@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="testWindow" prefHeight="171.0" prefWidth="387.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Test_Window1">
+   <children>
+      <Button fx:id="nextExampBut" layoutX="266.0" layoutY="125.0" mnemonicParsing="false" onAction="#Mult" prefHeight="25.0" prefWidth="92.0" text="Поехали" visible="false" />
+      <TextField fx:id="desField" layoutX="36.0" layoutY="73.0" />
+      <Label fx:id="explField" layoutX="36.0" layoutY="35.0" prefHeight="17.0" prefWidth="322.0" text="Нажмите 'Начать'" />
+      <Button fx:id="StartBut" layoutX="168.0" layoutY="125.0" mnemonicParsing="false" onAction="#StartTest" prefHeight="25.0" prefWidth="76.0" text="Начать" />
+   </children>
+</AnchorPane>
