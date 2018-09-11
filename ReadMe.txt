@@ -1,0 +1,1 @@
+Checking the knowledge of the multiplication table
